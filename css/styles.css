@@ -1,0 +1,171 @@
+
+body{
+
+      background-color: rgb(4, 7, 34);
+      margin:0;
+    }
+
+    
+    a{
+    
+    
+        text-decoration:none;
+        
+        margin: 0 15px 0 15px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+        font-weight: 600;
+        color:white;
+    
+    }
+    
+    nav{
+    padding-top:30px;
+    margin: 0 20px 0 0;
+    }
+    
+    #navigation{
+      
+      position:fixed;
+        display:flex;
+        justify-content: flex-end;
+    
+    
+    
+    height: 100px;
+    
+    
+    width: 100%;
+    background-color:rgb(4, 7, 34);
+
+    }
+    
+    h1{
+    margin:0;
+      font-family: 'Open Sans', sans-serif;
+      color:white;
+      font-size: 100px;
+      font-weight: 600;
+    }
+
+
+    #Projects h1{
+
+      
+      
+    }
+
+    #Projects h2{
+      color:black;
+      
+    }
+    
+    
+    h2{
+      margin:0;
+      font-family: 'Open Sans', sans-serif;
+      color:white;
+      font-size: 40px;
+      font-weight: 600;
+    }
+    
+    #selftextinfo{
+    
+    
+    
+     width: 700px;
+      
+    }
+
+    hr{
+
+     
+      background: rgb(28, 2, 121);
+      width:50%;
+      height:3px;
+      border-width: 0;
+    }
+    
+    
+    
+    #specificprojectstext{
+    
+      width: 700px;
+    
+      
+       
+     }
+
+     .flex-container{
+      display: flex;
+      justify-content:center;
+
+     }
+
+     .project-container{
+      display:flex;
+   justify-content: center;
+          margin: 100px 50px 100px 50px;
+
+     }
+    
+    #introduction{
+    padding-top: 130px;
+     
+
+    margin: 0 50px 100px 50px;
+    
+    }
+    img{
+      height: 700px;
+      width: 500px;
+      margin: 0 0 0 20px;
+      border-radius: 5px;
+    
+    }
+    
+    p{
+    
+      font-family: 'Open Sans', sans-serif;
+      color:white;
+      font-size: 20px;
+      font-weight: 600;
+    }
+
+
+
+    .project-text p{
+color:black;
+
+    }
+    
+    #Projects{
+/*     
+      display: flex;
+      justify-content:center;
+    
+ 
+    */
+    background-color: white; 
+
+
+    
+    }
+
+    #Projects img{ 
+
+      width: 50%;
+    }
+    
+   .sectiontitle{
+    
+      text-align: center;
+      color:black;
+      
+    }
+    
+    #projectimages{
+    
+      width:800px;
+      height:500px
+    }
