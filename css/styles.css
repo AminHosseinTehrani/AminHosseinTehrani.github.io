@@ -1,9 +1,18 @@
 
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
 body{
 
       background-color: rgb(4, 7, 34);
       margin:0;
     }
+
+
 
     
     a{
@@ -13,32 +22,56 @@ body{
         
         margin: 0 15px 0 15px;
         font-family: 'Open Sans', sans-serif;
-        font-size: 33px;
-        font-weight: 600;
+        font-size: 20px;
+        font-weight: 300;
         color:white;
     
     }
+
+    a:hover{
+      color:yellow;
+      transition: all 1s ease;
+    }
+
+    .links-container{
+
+      padding-top:20px;
+    }
     
     nav{
-    padding-top:30px;
+
     margin: 0 20px 0 0;
+
+
     }
     
     #navigation{
       
       position:fixed;
         display:flex;
-        justify-content: flex-end;
+        justify-content: space-between;
     
     
     
-    height: 100px;
+    height: 50px;
     
     
     width: 100%;
     background-color:rgb(4, 7, 34);
 
     }
+
+
+    .tech-container img{
+      width:30px;
+      height:30px;
+      padding:0;
+      margin:0;
+    }
+
+    .tech-container{
+    padding-top:20px;
+  }
     
     h1{
     margin:0;
