@@ -8,7 +8,7 @@ html{
 
 body{
 
-      background-color: rgb(4, 7, 34);
+      background-color: rgb(37, 37, 41);
       margin:0;
     }
 
@@ -34,8 +34,9 @@ body{
     }
 
     .links-container{
-
-      padding-top:20px;
+      display: flex;
+align-items: center;
+     
     }
     
     nav{
@@ -50,15 +51,51 @@ body{
       position:fixed;
         display:flex;
         justify-content: space-between;
+
+        z-index: 2;
     
-    
-    
-    height: 50px;
-    
+ 
+    margin-bottom: 20px;
     
     width: 100%;
     background-color:rgb(4, 7, 34);
 
+    }
+
+
+
+    .arrow{
+      border:solid rgb(255,255,255);
+      border-width: 0 8px 8px 0;
+      padding:15px;
+      display: inline-block;
+      transform:rotate(45deg);
+      z-index: 1;
+    }
+
+    .bounce{
+      padding: 50px 0 0 50px;
+      animation: bounce 2s infinite;
+
+    }
+
+    @keyframes bounce{
+      0%,
+      20%,
+      50%,
+      80%,
+      100%{
+        transform: translateY(0);
+      }
+
+      40%{
+
+
+        transform: translateY(-30px);
+      }
+      60%{
+        transform: translateY(-15px);
+      }
     }
 
 
@@ -70,44 +107,46 @@ body{
     }
 
     .tech-container{
-    padding-top:20px;
+   display: flex;
+    height:50px;
+    align-items: center;
   }
     
     h1{
     margin:0;
       font-family: 'Open Sans', sans-serif;
       color:white;
-      font-size: 100px;
-      font-weight: 600;
+      font-size: 40px;
+      font-weight: 50;
     }
 
 
-    #Projects h1{
 
-      
-      
-    }
-
-    #Projects h2{
-      color:black;
-      
-    }
     
     
     h2{
       margin:0;
       font-family: 'Open Sans', sans-serif;
       color:white;
-      font-size: 40px;
-      font-weight: 600;
+      font-size: 30px;
+      font-weight: 50;
     }
     
     #selftextinfo{
     
     
     
-     width: 700px;
+      margin: 0 10% 0 0;
+     align-items: center;
       
+    }
+
+    .self-textwrapper{
+      display:flex;
+      align-items: center;
+      border-right: 4px solid rgb(255,255,255);
+
+
     }
 
     hr{
@@ -121,13 +160,7 @@ body{
     
     
     
-    #specificprojectstext{
-    
-      width: 700px;
-    
-      
-       
-     }
+ 
 
      .flex-container{
       display: flex;
@@ -149,11 +182,13 @@ body{
     margin: 0 50px 100px 50px;
     
     }
-    img{
-      height: 700px;
-      width: 500px;
-      margin: 0 0 0 20px;
-      border-radius: 5px;
+    .flex-container img{
+      height: 500px;
+      width: 30%;
+      margin: 0 0 0 10%;
+      border-radius: 15px;
+
+     
     
     }
     
@@ -161,8 +196,8 @@ body{
     
       font-family: 'Open Sans', sans-serif;
       color:white;
-      font-size: 20px;
-      font-weight: 600;
+      font-size: 15px;
+      font-weight: 50;
     }
 
 
@@ -171,25 +206,9 @@ body{
 color:black;
 
     }
-    
-    #Projects{
-/*     
-      display: flex;
-      justify-content:center;
-    
- 
-    */
-    background-color: white; 
 
 
-    
-    }
 
-    #Projects img{ 
-
-      width: 50%;
-    }
-    
    .sectiontitle{
     
       text-align: center;
@@ -201,4 +220,118 @@ color:black;
     
       width:800px;
       height:500px
+    }
+
+
+
+
+    .hidden{
+      display:none ;
+    }
+
+
+    .hamburger{
+      display:none;
+    }
+
+    .hamburger-list-container {
+      display:none;
+    
+    }
+   
+
+    .hamburger-list-container a{
+      display:block ;
+      margin:5px;
+
+    }
+
+    @media (max-width: 600px){
+
+  
+   
+      .hamburger  {
+        display:block;
+        background-color: transparent;
+        border:none;
+        color:white;
+        font-size: 20px;
+      }
+
+    .links-container{
+
+      display:none;
+    }
+    
+    .hamburger-list-container {
+      display:block;
+    }
+   
+      
+    }
+
+
+    @media screen and (max-width:1000px){
+
+      .flex-container{
+        display:block;
+     
+
+        text-align: center;
+      }
+
+      .self-textwrapper {
+        display:block;
+
+        
+
+border-right:none;
+
+
+
+      }
+
+      #selftextinfo{
+ 
+    margin:0;
+      }
+
+      .flex-container img{
+
+        margin: 0 0 0 0;
+ 
+       width: 50vw;
+      
+      }
+
+      .introduction{
+
+  
+
+      }
+    }
+
+
+    .Projects-section{
+      background-color: rgb(59,62,77);
+      padding: 80px 50px;
+    }
+
+    .work-card-container{
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    .work-card{
+      width: 25%;
+      background-color: rgb(29,31,38);
+      margin: 10px;
+      padding: 0 0 50px 50px;
+    }
+
+
+    .html {
+      border-top: solid 8px rgb( 242, 128, 87)
     }
