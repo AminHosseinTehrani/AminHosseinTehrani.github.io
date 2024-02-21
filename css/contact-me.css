@@ -1,0 +1,78 @@
+body{
+
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.contact-section{
+    flex: 1;
+    padding-top:100px;
+}
+
+p{
+    
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 15px;
+    font-weight: 50;
+  }
+
+  a{
+
+    color:white;
+  }
+
+
+  .contact-section{
+
+  text-align: center;
+  padding:250px;
+  }
+
+  footer{
+    background-color: rgb(3,114,144);
+    display:flex;
+    justify-content: flex-end;
+    padding:50px;
+    
+margin-top:auto;
+  }
+
+
+
+  @media screen and (max-width:1000px){
+
+    .contact-section{
+      display:flex;
+ 
+
+      flex-direction: column;
+      justify-content: center;
+
+    padding: 100px 0 0 0;
+
+    
+  
+    }
+
+    /* .self-textwrapper {
+      display:block;
+
+      
+
+border-right:none;
+
+
+
+    } */
+
+   
+
+  
+
+
+  }

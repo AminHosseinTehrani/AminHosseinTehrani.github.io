@@ -1,0 +1,142 @@
+
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+
+    background-color: rgb(37, 37, 41);
+    margin:0;
+  }
+  
+    
+  nav a{
+    
+    
+    text-decoration:none;
+    
+    margin: 0 15px 0 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color:white;
+
+}
+
+a:hover{
+  color:yellow;
+  transition: all 1s ease;
+}
+
+.links-container{
+  display: flex;
+align-items: center;
+
+ 
+}
+
+nav{
+
+margin: 0 20px 0 0;
+
+
+}
+
+
+#navigation{
+  
+  position:fixed;
+    display:flex;
+    justify-content: space-between;
+
+    z-index: 2;
+
+
+margin-bottom: 20px;
+
+width: 100%;
+background-color:rgb(4, 7, 34);
+
+}
+
+
+.tech-container img{
+    width:30px;
+    height:30px;
+    padding:0;
+    margin:0;
+  }
+
+  .tech-container{
+ display: flex;
+  height:50px;
+  align-items: center;
+}
+
+
+
+
+.hidden{
+    display:none !important ;
+  }
+
+  .hamburger{
+    display:none;
+  }
+
+  
+  .hamburger-list-container a{
+    display:block ;
+    margin:5px;
+
+  }
+
+  
+  @media (max-width: 600px){
+
+  
+   
+    .hamburger  {
+      display:block;
+      background-color: transparent;
+      border:none;
+      color:white;
+      font-size: 20px;
+    }
+
+    .hamburger-content-container{
+      display:block !important;
+    }
+
+  .links-container{
+
+    display:none;
+  }
+  
+  .hamburger-list-container {
+    display:block;
+  }
+ 
+    
+  }
+
+
+  
+ 
+
+  footer a{
+
+    text-decoration: none;
+    color:rgb(255,255,255);
+  }
+
+  section h3{
+    font-size: 30px;
+    margin:0;
+    color: rgb(216,216,216);
+    
+  }
+
+  section a{
+    text-decoration: none;
+  }
