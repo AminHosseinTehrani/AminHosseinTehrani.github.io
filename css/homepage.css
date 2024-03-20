@@ -270,11 +270,26 @@ border-right:none;
 
     .work-card{
       width: 20%;
+      max-width:50%;
       background-color: rgb(29,31,38);
       margin: 10px;
       padding: 0 50px 50px 50px;
       color:white;
+      transition: background-color 1s;
     }
+
+    
+    .work-card:hover{
+      background-color: rgb(189, 125, 29);
+   
+    }
+
+
+    .work-card h3:hover{
+
+      color:blue;
+    }
+    
 
     @media screen and (max-width: 1000px){
 
